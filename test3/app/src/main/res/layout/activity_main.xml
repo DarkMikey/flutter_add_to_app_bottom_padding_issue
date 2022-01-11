@@ -4,11 +4,11 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FF0000"
+        android:background="#FFAA"
         >
 
     <View
-            android:background="#FFFF00"
+            android:background="#77FF77"
             android:id="@+id/bottom_content"
             android:layout_width="match_parent"
             android:layout_height="120dp"
