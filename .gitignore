@@ -4,6 +4,7 @@
 .packages
 .pub/
 
+.history/
 .idea/
 .vagrant/
 .sconsign.dblite
