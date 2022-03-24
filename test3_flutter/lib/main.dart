@@ -22,10 +22,15 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(MediaQuery.of(context).viewInsets.bottom);
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
+            _buildTextField(),
+            const SizedBox(height: 30),
+            _buildTextField(),
+            const SizedBox(height: 30),
             _buildTextField(),
             const SizedBox(height: 30),
             _buildTextField(),
@@ -43,7 +48,7 @@ class MyHomePage extends StatelessWidget {
   }
 
   Widget _buildTextField() {
-    return TextField(
+    return const TextField(
       decoration: InputDecoration(
         border: OutlineInputBorder(),
         hintText: 'Enter a search term',
